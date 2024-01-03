@@ -1,0 +1,12 @@
+@patch on(start)
+
+set /v unxtpatch='1'
+if unxtpatch ='0':
+	kill(process.pro)
+end.kill(kill)
+set /v unxtpatch='0'
+if unxtpatch='1':
+	start(kernal(start))
+root.loop(mainloop)
+end.kill()
+
