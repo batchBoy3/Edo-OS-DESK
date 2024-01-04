@@ -2,7 +2,7 @@
 :Loop
 cls
 echo Would you like to install to your computer or run from DVD? (Run from DVD doesn't install anything on your computer exept cache.)
-Call Button  10 4 "Install to computer" 34 4 "Run from DVD" 45 4 "Run from computer" # Press
+Call Button  10 4 "Install to computer" 34 4 "Run from DVD" 50 4 "Run from computer" # Press
 Getinput /m %Press% /h 70
 
 :: Check for the pressed button 
